@@ -33,7 +33,7 @@
 3.  Description of Metamorphic relations<br>
    According to the specification of the program, the specific Metamorphic relations description can be obtained as shown in the following table.<br>
 
-<table><tr><td>No</td><td>R </td><td>Rf</td></tr>
+<table><tr><td>No.</td><td>R </td><td>Rf</td></tr>
 <tr><td colspan="3">Type=A, planFee=46, 50<=talktime<=8000 & flow<=150,</td></tr>
 <tr><td>MR1 </td><td>talktime_=talktime+1,(50<=talktime<=7999) </td><td>bill_=bill+0.25</td></tr>
 <tr><td>MR2</td> <td>talktime_=2*talktime, (50<=talktime<=4000) </td><td>bill_>=bill</td></tr>
